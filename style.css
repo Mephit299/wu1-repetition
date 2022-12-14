@@ -1,0 +1,33 @@
+.container{
+    width: min(80ch, 100vw - 1rem);
+    margin: auto;
+
+}
+body{
+    margin: 0ch;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: burlywood;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    border-radius: 100%;
+    aspect-ratio: 1x/1;
+}
